@@ -1,0 +1,7 @@
+export http_proxy=""
+export https_proxy=""
+
+export http_proxy="http://58.199.162.206:9001"
+export https_proxy="http://58.199.162.206:9001"
+
+export DISPLAY=:0

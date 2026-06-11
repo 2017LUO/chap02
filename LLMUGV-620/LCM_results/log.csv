@@ -1,0 +1,1 @@
+ep,time,step,reward,T1_succ,T2_succ,T3_succ,T4_succ,T5_succ,T6_succ,T1_step,T2_step,T3_step,T4_step,T5_step,T6_step,LLM1,LLM2,LLM3,LLM4,LLM5,LLM6,seq,winner_seq,switch_seq,llm_seq,cand_seq,succ_rate,collision

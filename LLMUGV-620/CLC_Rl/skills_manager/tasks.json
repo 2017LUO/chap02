@@ -1,0 +1,32 @@
+{
+  "0": {
+    "desc": "Lane Keeping",
+    "skill_ckpt": "ckpts/lk_policy.pth",
+    "extra": {}
+  },
+  "1": {
+    "desc": "Dynamic Obstacle Avoidance",
+    "skill_ckpt": "ckpts/avoid_policy.pth",
+    "extra": {}
+  },
+  "2": {
+    "desc": "Hit Target Sphere",
+    "skill_ckpt": "ckpts/hit_sphere_policy.pth",
+    "extra": {}
+  },
+  "3": {
+    "desc": "Enter Street",
+    "skill_ckpt": "ckpts/enter_street.pth",
+    "extra": {}
+  },
+  "4": {
+    "desc": "Reaching Parking",
+    "skill_ckpt": "ckpts/reaching_parking.pth",
+    "extra": {}
+  },
+  "5": {
+    "desc": "Precision Parking",
+    "skill_ckpt": "ckpts/park_policy.pth",
+    "extra": {}
+  }
+}
