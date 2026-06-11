@@ -1,0 +1,38 @@
+[
+  {
+    "method_key": "lacm",
+    "method": "LACM",
+    "score_mean": 71.22617385,
+    "score_std": 0.0,
+    "uvr_mean": 54.7,
+    "uvr_std": 0.0,
+    "sr_mean": 65.75,
+    "sr_std": 0.0,
+    "scsr_mean": NaN,
+    "scsr_std": 0.0
+  },
+  {
+    "method_key": "oracle",
+    "method": "Oracle",
+    "score_mean": 90.4047876,
+    "score_std": 0.0,
+    "uvr_mean": 6.75,
+    "uvr_std": 0.0,
+    "sr_mean": 91.4,
+    "sr_std": 0.0,
+    "scsr_mean": NaN,
+    "scsr_std": 0.0
+  },
+  {
+    "method_key": "efsr",
+    "method": "EFSR",
+    "score_mean": 70.776133575,
+    "score_std": 0.0,
+    "uvr_mean": 34.699999999999996,
+    "uvr_std": 0.0,
+    "sr_mean": 65.3,
+    "sr_std": 0.0,
+    "scsr_mean": 51.726582500000006,
+    "scsr_std": 0.0
+  }
+]

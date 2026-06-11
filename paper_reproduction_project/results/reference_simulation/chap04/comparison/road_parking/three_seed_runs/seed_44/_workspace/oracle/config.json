@@ -1,0 +1,9 @@
+{
+  "scenario": "road",
+  "method": "oracle",
+  "episodes": 4000,
+  "seed": 44,
+  "chapter_key": "chap04",
+  "reference_baseline": true,
+  "trained_network": false
+}

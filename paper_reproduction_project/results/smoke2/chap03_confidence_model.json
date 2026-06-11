@@ -1,0 +1,7 @@
+{
+  "weights": {
+    "risk": 0.55,
+    "progress": 0.35,
+    "bias": 0.1
+  }
+}

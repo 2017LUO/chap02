@@ -1,0 +1,34 @@
+{
+  "suite_key": "chap02_road_ablation",
+  "suite_name": "Chapter 2 Road Ablation",
+  "scenario_key": "road",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "seed_runs": [
+    {
+      "seed": 42,
+      "output_dir": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\seed_42",
+      "suite_summary_csv": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\seed_42\\suite_summary.csv",
+      "suite_summary_json": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\seed_42\\suite_summary.json"
+    },
+    {
+      "seed": 43,
+      "output_dir": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\seed_43",
+      "suite_summary_csv": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\seed_43\\suite_summary.csv",
+      "suite_summary_json": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\seed_43\\suite_summary.json"
+    },
+    {
+      "seed": 44,
+      "output_dir": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\seed_44",
+      "suite_summary_csv": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\seed_44\\suite_summary.csv",
+      "suite_summary_json": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\seed_44\\suite_summary.json"
+    }
+  ],
+  "aggregate_rows_csv": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\aggregate_rows.csv",
+  "aggregate_rows_json": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\aggregate_summary.json",
+  "aggregate_statistics_csv": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\aggregate_statistics.csv",
+  "aggregate_statistics_json": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\aggregate_statistics.json"
+}

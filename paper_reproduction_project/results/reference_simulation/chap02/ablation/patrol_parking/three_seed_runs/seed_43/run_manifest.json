@@ -1,0 +1,18 @@
+{
+  "suite_key": "chap02_patrol_ablation",
+  "suite_name": "Chapter 2 Patrol Ablation",
+  "scenario_key": "patrol",
+  "method_keys": [
+    "dkabs",
+    "dkabs_wo_dk",
+    "dkabs_wo_os"
+  ],
+  "seed": 43,
+  "episodes": 5000,
+  "clean_intermediates": false,
+  "artifacts": {
+    "workspace_dir": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\patrol_parking\\three_seed_runs\\seed_43\\_workspace",
+    "suite_summary_csv": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\patrol_parking\\three_seed_runs\\seed_43\\suite_summary.csv",
+    "suite_summary_json": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\ablation\\patrol_parking\\three_seed_runs\\seed_43\\suite_summary.json"
+  }
+}

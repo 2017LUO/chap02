@@ -1,0 +1,10 @@
+{
+  "episodes": 1,
+  "scene": "ugv_parking",
+  "method": "EFSR",
+  "avg_reward": 12.200000000000001,
+  "avg_steps": 7,
+  "success_rate": 1.0,
+  "avg_correction_ratio": 0.0,
+  "avg_feedback_records": 7
+}

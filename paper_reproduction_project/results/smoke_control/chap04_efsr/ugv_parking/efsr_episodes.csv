@@ -1,0 +1,2 @@
+correction_ratio,done_reason,episode,feedback_records,method,scene,seed,steps,success,total_reward
+0.0,success,0,7,EFSR,ugv_parking,1,7,True,12.200000000000001

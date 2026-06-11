@@ -1,0 +1,12 @@
+{
+  "episodes": 1,
+  "scene": "highway",
+  "method": "LACM",
+  "avg_reward": 61.89025419925685,
+  "avg_steps": 80,
+  "success_rate": 1.0,
+  "avg_avg_wait_seconds": 1.142857142857141,
+  "avg_avg_wait_steps": 5.714285714285714,
+  "avg_compensation_ratio": 0.8375,
+  "avg_effective_return": 51.48042930014482
+}

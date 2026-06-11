@@ -1,0 +1,29 @@
+{
+  "suite_key": "chap04_patrol_ablation",
+  "suite_name": "Chapter 4 Patrol Ablation",
+  "figures": [
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_score_curve.png",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_score_curve.pdf",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_score_bar.png",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_score_bar.pdf",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_uvr_curve.png",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_uvr_curve.pdf",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_uvr_bar.png",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_uvr_bar.pdf",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_sr_curve.png",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_sr_curve.pdf",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_sr_bar.png",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_sr_bar.pdf",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_scsr_curve.png",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_scsr_curve.pdf",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_scsr_bar.png",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\figures\\chap04_ugv_patrol_ablation_scsr_bar.pdf"
+  ],
+  "tables": [
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\tables\\chap04_ugv_patrol_ablation_statistics.csv",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\tables\\chap04_ugv_patrol_ablation_statistics.md",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\tables\\chap04_ugv_patrol_ablation_statistics.json",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\tables\\chap04_ugv_patrol_ablation_statistics.png",
+    "F:\\Study\\AAA\\chap04\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\deliverables\\tables\\chap04_ugv_patrol_ablation_statistics.pdf"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "scene": "highway",
+  "method": "EFSR",
+  "episodes": 1,
+  "seed": 0,
+  "max_episode_steps": 80,
+  "output_dir": "results",
+  "risk": {
+    "threshold": 0.55,
+    "feedback_weight": 0.35
+  },
+  "planner": {
+    "planning_horizon": 80
+  },
+  "environment": {
+    "backend": "gymnasium",
+    "env_id": "highway-v0",
+    "render_mode": "rgb_array",
+    "duration": 80,
+    "vehicles_count": 50,
+    "lanes_count": 4
+  }
+}

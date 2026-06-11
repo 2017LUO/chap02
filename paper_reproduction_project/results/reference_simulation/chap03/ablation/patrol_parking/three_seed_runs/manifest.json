@@ -1,0 +1,34 @@
+{
+  "suite_key": "chap03_patrol_ablation",
+  "suite_name": "Chapter 3 Patrol Ablation",
+  "scenario_key": "patrol",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "seed_runs": [
+    {
+      "seed": 42,
+      "output_dir": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\seed_42",
+      "suite_summary_csv": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\suite_summary.csv",
+      "suite_summary_json": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\seed_42\\suite_summary.json"
+    },
+    {
+      "seed": 43,
+      "output_dir": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\seed_43",
+      "suite_summary_csv": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\seed_43\\suite_summary.csv",
+      "suite_summary_json": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\seed_43\\suite_summary.json"
+    },
+    {
+      "seed": 44,
+      "output_dir": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\seed_44",
+      "suite_summary_csv": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\seed_44\\suite_summary.csv",
+      "suite_summary_json": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\seed_44\\suite_summary.json"
+    }
+  ],
+  "aggregate_rows_csv": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\aggregate_rows.csv",
+  "aggregate_rows_json": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\aggregate_summary.json",
+  "aggregate_statistics_csv": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\aggregate_statistics.csv",
+  "aggregate_statistics_json": "chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs\\aggregate_statistics.json"
+}

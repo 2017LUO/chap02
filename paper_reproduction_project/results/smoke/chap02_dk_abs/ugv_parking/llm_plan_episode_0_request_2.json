@@ -1,0 +1,93 @@
+{
+  "provider": "simulated",
+  "model": "gpt-4o-mini-sim",
+  "messages": [
+    {
+      "role": "system",
+      "content": "你是一个用于具身智能实验复现的高层动作行为规划器。你必须严格使用给定的技能集合、领域知识和运行状态，输出可执行的 JSON 计划。不要输出 Markdown，不要解释额外文本。"
+    },
+    {
+      "role": "user",
+      "content": "请为当前任务生成动作行为序列。要求：\n1. 只使用 available_skills 中存在的 skill_id。\n2. 每个计划项必须包含 skill_id、args、source、expected_phase、max_steps、constraints。\n3. 输出 JSON object，顶层字段为 plan 和 rationale。\n4. plan 必须能被 env.apply_skill(skill_id, args) 顺序执行。\n\n<PLANNING_CONTEXT_JSON>\n{\n  \"scene\": \"ugv_parking\",\n  \"task_state\": {\n    \"scene_name\": \"ugv_parking\",\n    \"phase\": \"target_ball\",\n    \"phase_index\": 2,\n    \"time_step\": 2,\n    \"stage_complete\": false,\n    \"task_success\": false,\n    \"distance_to_goal\": 40.0,\n    \"traffic_light_state\": \"green\",\n    \"backend\": \"scripted\",\n    \"target_id\": \"target_ball_01\",\n    \"road_segment_id\": \"main_road\",\n    \"parking_slot_id\": \"slot_01\",\n    \"is_in_parking_area\": false\n  },\n  \"domain_knowledge\": {\n    \"environment_topology\": {\n      \"nodes\": [\n        \"start\",\n        \"main_road\",\n        \"intersection\",\n        \"street\",\n        \"parking_area\"\n      ],\n      \"edges\": [\n        [\n          \"start\",\n          \"main_road\"\n        ],\n        [\n          \"main_road\",\n          \"intersection\"\n        ],\n        [\n          \"intersection\",\n          \"street\"\n        ],\n        [\n          \"street\",\n          \"parking_area\"\n        ]\n      ]\n    },\n    \"region_rules\": {\n      \"main_road\": [\n        \"lane_keep_required\"\n      ],\n      \"intersection\": [\n        \"green_light_required\"\n      ],\n      \"grass_area\": [\n        \"forbidden\"\n      ],\n      \"parking_area\": [\n        \"low_speed_required\",\n        \"slot_alignment_required\"\n      ]\n    },\n    \"skill_policies\": {\n      \"main_road_driving\": \"drive along the main road and keep lane\",\n      \"obstacle_avoidance\": \"avoid static obstacles while staying on road\",\n      \"target_ball_clear\": \"approach and clear the yellow target ball\",\n      \"pass_intersection\": \"pass the intersection only when signal permits\",\n      \"enter_street\": \"enter the street segment after intersection\",\n      \"search_parking_slot\": \"search and approach the target parking slot\",\n      \"parking_control\": \"align and park in the target slot\",\n      \"safe_stop\": \"stop or wait when safety constraints are active\"\n    },\n    \"backend\": \"scripted\",\n    \"unity_state_channel_id\": \"9b95f441-6f23-4d61-bb23-5df476f26f25\"\n  },\n  \"available_skills\": [\n    \"enter_street\",\n    \"main_road_driving\",\n    \"obstacle_avoidance\",\n    \"parking_control\",\n    \"pass_intersection\",\n    \"safe_stop\",\n    \"search_parking_slot\",\n    \"target_ball_clear\"\n  ],\n  \"skill_descriptions\": {\n    \"main_road_driving\": \"drive along the main road and keep lane\",\n    \"obstacle_avoidance\": \"avoid static obstacles while staying on road\",\n    \"target_ball_clear\": \"approach and clear the yellow target ball\",\n    \"pass_intersection\": \"pass the intersection only when signal permits\",\n    \"enter_street\": \"enter the street segment after intersection\",\n    \"search_parking_slot\": \"search and approach the target parking slot\",\n    \"parking_control\": \"align and park in the target slot\",\n    \"safe_stop\": \"stop or wait when safety constraints are active\"\n  },\n  \"planner_config\": {\n    \"mode\": \"llm_simulated\",\n    \"fallback_to_rule\": true,\n    \"replan_each_step\": true,\n    \"wood_target_count\": 4,\n    \"stone_target_count\": 1,\n    \"max_skill_steps\": 350,\n    \"llm\": {\n      \"provider\": \"simulated\",\n      \"model\": \"gpt-4o-mini-sim\",\n      \"temperature\": 0.0\n    }\n  },\n  \"output_schema\": {\n    \"plan\": [\n      {\n        \"skill_id\": \"string\",\n        \"args\": \"object\",\n        \"source\": \"llm or llm_simulated\",\n        \"expected_phase\": \"string or null\",\n        \"max_steps\": \"positive integer\",\n        \"constraints\": [\n          \"string\"\n        ]\n      }\n    ],\n    \"rationale\": \"short string\"\n  }\n}\n</PLANNING_CONTEXT_JSON>"
+    }
+  ],
+  "response_text": "{\n  \"plan\": [\n    {\n      \"skill_id\": \"target_ball_clear\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"target_ball\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"obey traffic-light and drivable-region constraints\",\n        \"use safe_stop if a safety constraint blocks progress\"\n      ]\n    },\n    {\n      \"skill_id\": \"pass_intersection\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"intersection\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"obey traffic-light and drivable-region constraints\",\n        \"use safe_stop if a safety constraint blocks progress\"\n      ]\n    },\n    {\n      \"skill_id\": \"enter_street\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"street\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"obey traffic-light and drivable-region constraints\",\n        \"use safe_stop if a safety constraint blocks progress\"\n      ]\n    },\n    {\n      \"skill_id\": \"search_parking_slot\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"parking_area\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"obey traffic-light and drivable-region constraints\",\n        \"use safe_stop if a safety constraint blocks progress\"\n      ]\n    },\n    {\n      \"skill_id\": \"parking_control\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"parking\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"obey traffic-light and drivable-region constraints\",\n        \"use safe_stop if a safety constraint blocks progress\"\n      ]\n    }\n  ],\n  \"rationale\": \"Simulated OpenAI-compatible planner generated a deterministic JSON plan from the real prompt context.\"\n}",
+  "raw_response": {
+    "id": "chatcmpl-sim-2438448",
+    "object": "chat.completion",
+    "created": 1780235717,
+    "model": "gpt-4o-mini-sim",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"plan\": [\n    {\n      \"skill_id\": \"target_ball_clear\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"target_ball\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"obey traffic-light and drivable-region constraints\",\n        \"use safe_stop if a safety constraint blocks progress\"\n      ]\n    },\n    {\n      \"skill_id\": \"pass_intersection\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"intersection\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"obey traffic-light and drivable-region constraints\",\n        \"use safe_stop if a safety constraint blocks progress\"\n      ]\n    },\n    {\n      \"skill_id\": \"enter_street\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"street\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"obey traffic-light and drivable-region constraints\",\n        \"use safe_stop if a safety constraint blocks progress\"\n      ]\n    },\n    {\n      \"skill_id\": \"search_parking_slot\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"parking_area\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"obey traffic-light and drivable-region constraints\",\n        \"use safe_stop if a safety constraint blocks progress\"\n      ]\n    },\n    {\n      \"skill_id\": \"parking_control\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"parking\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"obey traffic-light and drivable-region constraints\",\n        \"use safe_stop if a safety constraint blocks progress\"\n      ]\n    }\n  ],\n  \"rationale\": \"Simulated OpenAI-compatible planner generated a deterministic JSON plan from the real prompt context.\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 931,
+      "completion_tokens": 434,
+      "total_tokens": 1365
+    }
+  },
+  "plan": [
+    {
+      "skill_id": "target_ball_clear",
+      "args": {},
+      "source": "llm_simulated",
+      "expected_phase": "target_ball",
+      "max_steps": 350,
+      "constraints": [
+        "obey traffic-light and drivable-region constraints",
+        "use safe_stop if a safety constraint blocks progress"
+      ]
+    },
+    {
+      "skill_id": "pass_intersection",
+      "args": {},
+      "source": "llm_simulated",
+      "expected_phase": "intersection",
+      "max_steps": 350,
+      "constraints": [
+        "obey traffic-light and drivable-region constraints",
+        "use safe_stop if a safety constraint blocks progress"
+      ]
+    },
+    {
+      "skill_id": "enter_street",
+      "args": {},
+      "source": "llm_simulated",
+      "expected_phase": "street",
+      "max_steps": 350,
+      "constraints": [
+        "obey traffic-light and drivable-region constraints",
+        "use safe_stop if a safety constraint blocks progress"
+      ]
+    },
+    {
+      "skill_id": "search_parking_slot",
+      "args": {},
+      "source": "llm_simulated",
+      "expected_phase": "parking_area",
+      "max_steps": 350,
+      "constraints": [
+        "obey traffic-light and drivable-region constraints",
+        "use safe_stop if a safety constraint blocks progress"
+      ]
+    },
+    {
+      "skill_id": "parking_control",
+      "args": {},
+      "source": "llm_simulated",
+      "expected_phase": "parking",
+      "max_steps": 350,
+      "constraints": [
+        "obey traffic-light and drivable-region constraints",
+        "use safe_stop if a safety constraint blocks progress"
+      ]
+    }
+  ]
+}

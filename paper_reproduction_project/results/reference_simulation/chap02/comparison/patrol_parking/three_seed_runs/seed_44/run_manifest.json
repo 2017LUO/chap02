@@ -1,0 +1,19 @@
+{
+  "suite_key": "chap02_patrol_comparison",
+  "suite_name": "Chapter 2 Patrol Comparison",
+  "scenario_key": "patrol",
+  "method_keys": [
+    "hsd3",
+    "saycan",
+    "dilu",
+    "dkabs"
+  ],
+  "seed": 44,
+  "episodes": 5000,
+  "clean_intermediates": false,
+  "artifacts": {
+    "workspace_dir": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\comparison\\patrol_parking\\three_seed_runs\\seed_44\\_workspace",
+    "suite_summary_csv": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\comparison\\patrol_parking\\three_seed_runs\\seed_44\\suite_summary.csv",
+    "suite_summary_json": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\comparison\\patrol_parking\\three_seed_runs\\seed_44\\suite_summary.json"
+  }
+}

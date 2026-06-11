@@ -1,0 +1,16 @@
+# Highway 高速驾驶实验默认配置
+scene_name: highway
+backend: gymnasium
+env_id: highway-v0
+render_mode: rgb_array
+
+# 论文说明中的实验设置：4 车道、约 50 辆干扰车、每回合 100 步。
+lanes_count: 4
+vehicles_count: 50
+duration: 100
+max_episode_steps: 100
+
+target_speed: 30.0
+safe_distance: 10.0
+ttc_threshold: 4.0
+risk_slowdown_threshold: 0.35

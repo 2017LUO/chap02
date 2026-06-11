@@ -1,0 +1,179 @@
+﻿{
+    "description":  "Three-seed simulation training reference snapshot copied from Paper_Code for reproduction alignment.",
+    "copied_at":  "2026-06-03 11:29:41 +08:00",
+    "seed_set":  [
+                     "seed_42",
+                     "seed_43",
+                     "seed_44"
+                 ],
+    "items":  [
+                  {
+                      "chapter":  "chap02",
+                      "group":  "comparison",
+                      "scene":  "patrol_parking",
+                      "source":  "Paper_Code\\chap02\\single_seed_paper\\data\\comparison\\patrol_parking\\three_seed_runs",
+                      "destination":  "results\\reference_simulation\\chap02\\comparison\\patrol_parking\\three_seed_runs",
+                      "seeds":  [
+                                    "seed_42",
+                                    "seed_43",
+                                    "seed_44"
+                                ],
+                      "file_count":  62,
+                      "size_mb":  15.896
+                  },
+                  {
+                      "chapter":  "chap02",
+                      "group":  "comparison",
+                      "scene":  "road_parking",
+                      "source":  "Paper_Code\\chap02\\single_seed_paper\\data\\comparison\\road_parking\\three_seed_runs",
+                      "destination":  "results\\reference_simulation\\chap02\\comparison\\road_parking\\three_seed_runs",
+                      "seeds":  [
+                                    "seed_42",
+                                    "seed_43",
+                                    "seed_44"
+                                ],
+                      "file_count":  62,
+                      "size_mb":  12.717
+                  },
+                  {
+                      "chapter":  "chap02",
+                      "group":  "ablation",
+                      "scene":  "patrol_parking",
+                      "source":  "Paper_Code\\chap02\\single_seed_paper\\data\\ablation\\patrol_parking\\three_seed_runs",
+                      "destination":  "results\\reference_simulation\\chap02\\ablation\\patrol_parking\\three_seed_runs",
+                      "seeds":  [
+                                    "seed_42",
+                                    "seed_43",
+                                    "seed_44"
+                                ],
+                      "file_count":  50,
+                      "size_mb":  11.983
+                  },
+                  {
+                      "chapter":  "chap02",
+                      "group":  "ablation",
+                      "scene":  "road_parking",
+                      "source":  "Paper_Code\\chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs",
+                      "destination":  "results\\reference_simulation\\chap02\\ablation\\road_parking\\three_seed_runs",
+                      "seeds":  [
+                                    "seed_42",
+                                    "seed_43",
+                                    "seed_44"
+                                ],
+                      "file_count":  50,
+                      "size_mb":  9.592
+                  },
+                  {
+                      "chapter":  "chap03",
+                      "group":  "comparison",
+                      "scene":  "patrol_parking",
+                      "source":  "Paper_Code\\chap03\\multi_seed_completion\\data\\comparison\\patrol_parking\\three_seed_runs",
+                      "destination":  "results\\reference_simulation\\chap03\\comparison\\patrol_parking\\three_seed_runs",
+                      "seeds":  [
+                                    "seed_42",
+                                    "seed_43",
+                                    "seed_44"
+                                ],
+                      "file_count":  62,
+                      "size_mb":  15.928
+                  },
+                  {
+                      "chapter":  "chap03",
+                      "group":  "comparison",
+                      "scene":  "road_parking",
+                      "source":  "Paper_Code\\chap03\\multi_seed_completion\\data\\comparison\\road_parking\\three_seed_runs",
+                      "destination":  "results\\reference_simulation\\chap03\\comparison\\road_parking\\three_seed_runs",
+                      "seeds":  [
+                                    "seed_42",
+                                    "seed_43",
+                                    "seed_44"
+                                ],
+                      "file_count":  62,
+                      "size_mb":  12.554
+                  },
+                  {
+                      "chapter":  "chap03",
+                      "group":  "ablation",
+                      "scene":  "patrol_parking",
+                      "source":  "Paper_Code\\chap03\\multi_seed_completion\\data\\ablation\\patrol_parking\\three_seed_runs",
+                      "destination":  "results\\reference_simulation\\chap03\\ablation\\patrol_parking\\three_seed_runs",
+                      "seeds":  [
+                                    "seed_42",
+                                    "seed_43",
+                                    "seed_44"
+                                ],
+                      "file_count":  50,
+                      "size_mb":  12.706
+                  },
+                  {
+                      "chapter":  "chap03",
+                      "group":  "ablation",
+                      "scene":  "road_parking",
+                      "source":  "Paper_Code\\chap03\\multi_seed_completion\\data\\ablation\\road_parking\\three_seed_runs",
+                      "destination":  "results\\reference_simulation\\chap03\\ablation\\road_parking\\three_seed_runs",
+                      "seeds":  [
+                                    "seed_42",
+                                    "seed_43",
+                                    "seed_44"
+                                ],
+                      "file_count":  50,
+                      "size_mb":  10.258
+                  },
+                  {
+                      "chapter":  "chap04",
+                      "group":  "comparison",
+                      "scene":  "patrol_parking",
+                      "source":  "Paper_Code\\chap04\\comparison\\patrol_parking\\three_seed_runs",
+                      "destination":  "results\\reference_simulation\\chap04\\comparison\\patrol_parking\\three_seed_runs",
+                      "seeds":  [
+                                    "seed_42",
+                                    "seed_43",
+                                    "seed_44"
+                                ],
+                      "file_count":  47,
+                      "size_mb":  12.909
+                  },
+                  {
+                      "chapter":  "chap04",
+                      "group":  "comparison",
+                      "scene":  "road_parking",
+                      "source":  "Paper_Code\\chap04\\comparison\\road_parking\\three_seed_runs",
+                      "destination":  "results\\reference_simulation\\chap04\\comparison\\road_parking\\three_seed_runs",
+                      "seeds":  [
+                                    "seed_42",
+                                    "seed_43",
+                                    "seed_44"
+                                ],
+                      "file_count":  116,
+                      "size_mb":  12.791
+                  },
+                  {
+                      "chapter":  "chap04",
+                      "group":  "ablation",
+                      "scene":  "patrol_parking",
+                      "source":  "Paper_Code\\chap04\\ablation\\patrol_parking\\three_seed_runs",
+                      "destination":  "results\\reference_simulation\\chap04\\ablation\\patrol_parking\\three_seed_runs",
+                      "seeds":  [
+                                    "seed_42",
+                                    "seed_43",
+                                    "seed_44"
+                                ],
+                      "file_count":  116,
+                      "size_mb":  16.481
+                  },
+                  {
+                      "chapter":  "chap04",
+                      "group":  "ablation",
+                      "scene":  "road_parking",
+                      "source":  "Paper_Code\\chap04\\ablation\\road_parking\\three_seed_runs",
+                      "destination":  "results\\reference_simulation\\chap04\\ablation\\road_parking\\three_seed_runs",
+                      "seeds":  [
+                                    "seed_42",
+                                    "seed_43",
+                                    "seed_44"
+                                ],
+                      "file_count":  116,
+                      "size_mb":  14.138
+                  }
+              ]
+}

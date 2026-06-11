@@ -1,0 +1,2 @@
+avg_wait_steps,compensation_ratio,done_reason,effective_return,episode,method,scene,seed,steps,success,total_reward
+1.25,0.0,terminated,5.217103627980249,0,LACM,highway,0,80,False,6.039186016341147

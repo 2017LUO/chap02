@@ -1,0 +1,1042 @@
+[
+  {
+    "scene": "highway",
+    "skill_id": "speed_up",
+    "risk_score": 0.0,
+    "reward": 0.9327704576054036,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=1|front=56.6|risk=0.0",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "speed_up",
+    "risk_score": 0.0,
+    "reward": 0.9516618503910704,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=1|front=130.2|risk=0.0",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.0,
+    "reward": 0.9548901671538421,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=1|front=118.7|risk=0.0",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "lane_left",
+    "risk_score": 0.5758195559437542,
+    "reward": 0.9319854137026312,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=21.0|risk=0.58",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.0,
+    "reward": 0.8227566658127468,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=58.4|risk=0.0",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "keep_lane",
+    "risk_score": 0.0,
+    "reward": 0.8038903339056099,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=52.5|risk=0.0",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "speed_up",
+    "risk_score": 0.0,
+    "reward": 0.9112130561846743,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=44.5|risk=0.0",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "speed_up",
+    "risk_score": 0.15238868468540923,
+    "reward": 0.9295532382482897,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=34.5|risk=0.15",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.40692547198687845,
+    "reward": 0.9326873595575603,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=24.3|risk=0.41",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.33673909686553544,
+    "reward": 0.8226747086319955,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=16.6|risk=0.34",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "keep_lane",
+    "risk_score": 0.5611892703451963,
+    "reward": 0.8038748409287838,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=11.0|risk=0.56",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.6691428002461453,
+    "reward": 0.6901139293425956,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=8.3|risk=0.67",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.6903747737998265,
+    "reward": 0.6706735279921715,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=7.7|risk=0.69",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.6953835497422597,
+    "reward": 0.6673513921249739,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=7.6|risk=0.7",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.6963016575030815,
+    "reward": 0.6667836781914404,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=7.6|risk=0.7",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.695279423542247,
+    "reward": 0.6666866625595661,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=7.6|risk=0.7",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "slow_down",
+    "risk_score": 0.6927541481987828,
+    "reward": 0.666670083729504,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=7.7|risk=0.69",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.688864094626183,
+    "reward": 0.6666672506025026,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=7.8|risk=0.69",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.6836908924864292,
+    "reward": 0.6666667664544309,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=7.9|risk=0.68",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.6773016231470911,
+    "reward": 0.6666666837192216,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=8.1|risk=0.68",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.6697565771988911,
+    "reward": 0.6666666695807476,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=8.3|risk=0.67",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.661111064148513,
+    "reward": 0.6666666671646487,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=8.5|risk=0.66",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "keep_lane",
+    "risk_score": 0.6514161370216971,
+    "reward": 0.6666666667517661,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=8.7|risk=0.65",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.6407190740644364,
+    "reward": 0.6666666666812091,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=9.0|risk=0.64",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.6290637708476743,
+    "reward": 0.6666666666691516,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=9.3|risk=0.63",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.6164910767187257,
+    "reward": 0.6666666666670914,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=9.6|risk=0.62",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.6030390877558284,
+    "reward": 0.6666666666667392,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=9.9|risk=0.6",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.5887434035164688,
+    "reward": 0.6666666666666791,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=10.3|risk=0.59",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.573637353111344,
+    "reward": 0.6666666666666687,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=10.7|risk=0.57",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.5577521950890741,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=11.1|risk=0.56",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.541117294835426,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=11.5|risk=0.54",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.5237602825716112,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=11.9|risk=0.52",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.5057071945359348,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=12.4|risk=0.51",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.4869825995265046,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=12.8|risk=0.49",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.4676097126495188,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=13.3|risk=0.47",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.44761049784354784,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=13.8|risk=0.45",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.42700576052311134,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=14.3|risk=0.43",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.40581523149569876,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=14.9|risk=0.41",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.3841982610927425,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=15.4|risk=0.38",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.36371166199934124,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=15.9|risk=0.36",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "keep_lane",
+    "risk_score": 0.3452728552103144,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=16.4|risk=0.35",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.32869268046780237,
+    "reward": 0.6666666666666671,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=16.8|risk=0.33",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "speed_up",
+    "risk_score": 0.4140258771205572,
+    "reward": 0.7772149020498481,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=14.6|risk=0.41",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.4823124901123083,
+    "reward": 0.6855580594523336,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=12.9|risk=0.48",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.48282395860781435,
+    "reward": 0.6698949834294382,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=12.9|risk=0.48",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.47200967194842636,
+    "reward": 0.6672183480190707,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=13.2|risk=0.47",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "keep_lane",
+    "risk_score": 0.4593781824795042,
+    "reward": 0.6667609425190552,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=13.5|risk=0.46",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.44645874604689195,
+    "reward": 0.6666827773006491,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=13.8|risk=0.45",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.4334458480626017,
+    "reward": 0.6666694197844666,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=14.2|risk=0.43",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.42032493687564054,
+    "reward": 0.6666671371421072,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=14.5|risk=0.42",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.4070581872335515,
+    "reward": 0.6666667470653843,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=14.8|risk=0.41",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.39361193081598683,
+    "reward": 0.6666666804058616,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=15.2|risk=0.39",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "keep_lane",
+    "risk_score": 0.3799586088479282,
+    "reward": 0.6666666690145334,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=15.5|risk=0.38",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.36607540853815407,
+    "reward": 0.6666666670678896,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=15.8|risk=0.37",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "speed_up",
+    "risk_score": 0.45244957957723275,
+    "reward": 0.7772149021184122,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=13.7|risk=0.45",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.5205423900792266,
+    "reward": 0.6855580594640504,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=12.0|risk=0.52",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.5199602571258947,
+    "reward": 0.6698949834314404,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=12.0|risk=0.52",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.5073969063749882,
+    "reward": 0.6672183480194126,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=12.3|risk=0.51",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.49253149495006254,
+    "reward": 0.6667609425191136,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=12.7|risk=0.49",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.4770100623941471,
+    "reward": 0.6666827773006592,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=13.1|risk=0.48",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.46110691131431847,
+    "reward": 0.6666694197844683,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=13.5|risk=0.46",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.44486288227991283,
+    "reward": 0.6666671371421075,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=13.9|risk=0.44",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.4282798027776789,
+    "reward": 0.6666667470653843,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=14.3|risk=0.43",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.41135365214895503,
+    "reward": 0.6666666804058616,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=14.7|risk=0.41",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "keep_lane",
+    "risk_score": 0.39408016827339454,
+    "reward": 0.6666666690145334,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=15.1|risk=0.39",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.3764557475910442,
+    "reward": 0.6666666670678896,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=15.6|risk=0.38",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.35847754338897175,
+    "reward": 0.6666666667352309,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=16.0|risk=0.36",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.3401434296960633,
+    "reward": 0.6666666666783835,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=16.5|risk=0.34",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.3214519449179079,
+    "reward": 0.6666666666686689,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=17.0|risk=0.32",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.30240223479623635,
+    "reward": 0.6666666666670089,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=17.4|risk=0.3",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "keep_lane",
+    "risk_score": 0.2829939980866038,
+    "reward": 0.666666666666725,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=17.9|risk=0.28",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.2632274355390928,
+    "reward": 0.6666666666666766,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=18.4|risk=0.26",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "speed_up",
+    "risk_score": 0.34360979040247913,
+    "reward": 0.7772149020498497,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=16.4|risk=0.34",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.4056201098039219,
+    "reward": 0.6855580594523337,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=14.9|risk=0.41",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.3988808676222925,
+    "reward": 0.6698949834294382,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=15.0|risk=0.4",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.3801004220359755,
+    "reward": 0.6672183480190707,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=15.5|risk=0.38",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "keep_lane",
+    "risk_score": 0.3589713232136819,
+    "reward": 0.6667609425190552,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=16.0|risk=0.36",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.3371518857517731,
+    "reward": 0.6666827773006491,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=16.6|risk=0.34",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "speed_up",
+    "risk_score": 0.41543424473677987,
+    "reward": 0.777217655167648,
+    "success": false,
+    "violation": false,
+    "state_signature": "lane=0|front=14.6|risk=0.42",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "not_started"
+    }
+  },
+  {
+    "scene": "highway",
+    "skill_id": "safe_follow",
+    "risk_score": 0.4753475057703781,
+    "reward": 0.6855585299277741,
+    "success": true,
+    "violation": false,
+    "state_signature": "lane=0|front=13.1|risk=0.48",
+    "metadata": {
+      "phase": "driving",
+      "done_reason": "truncated"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "suite_key": "chap02_road_comparison",
+  "suite_name": "Chapter 2 Road Comparison",
+  "scenario_key": "road",
+  "method_keys": [
+    "hsd3",
+    "saycan",
+    "dilu",
+    "dkabs"
+  ],
+  "seed": 43,
+  "episodes": 4000,
+  "clean_intermediates": false,
+  "artifacts": {
+    "workspace_dir": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\comparison\\road_parking\\three_seed_runs\\seed_43\\_workspace",
+    "suite_summary_csv": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\comparison\\road_parking\\three_seed_runs\\seed_43\\suite_summary.csv",
+    "suite_summary_json": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\comparison\\road_parking\\three_seed_runs\\seed_43\\suite_summary.json"
+  }
+}

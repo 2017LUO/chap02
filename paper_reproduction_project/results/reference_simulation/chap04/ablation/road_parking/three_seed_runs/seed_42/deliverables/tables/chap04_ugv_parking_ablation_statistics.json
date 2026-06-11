@@ -1,0 +1,38 @@
+[
+  {
+    "method_key": "efsr",
+    "method": "EFSR",
+    "score_mean": 70.64561695,
+    "score_std": 0.0,
+    "uvr_mean": 34.475,
+    "uvr_std": 0.0,
+    "sr_mean": 65.525,
+    "sr_std": 0.0,
+    "scsr_mean": 51.48815999999999,
+    "scsr_std": 0.0
+  },
+  {
+    "method_key": "efsr_wo_ef",
+    "method": "EFSR w/o EF",
+    "score_mean": 58.532117475,
+    "score_std": 0.0,
+    "uvr_mean": 54.949999999999996,
+    "uvr_std": 0.0,
+    "sr_mean": 45.050000000000004,
+    "sr_std": 0.0,
+    "scsr_mean": 36.032612500000006,
+    "scsr_std": 0.0
+  },
+  {
+    "method_key": "efsr_wo_rv",
+    "method": "EFSR w/o RV",
+    "score_mean": 48.98093985,
+    "score_std": 0.0,
+    "uvr_mean": 69.72500000000001,
+    "uvr_std": 0.0,
+    "sr_mean": 30.275000000000002,
+    "sr_std": 0.0,
+    "scsr_mean": 3.8616575,
+    "scsr_std": 0.0
+  }
+]

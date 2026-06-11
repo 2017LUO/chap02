@@ -1,0 +1,27 @@
+{
+  "runs": [
+    {
+      "chapter": "chap03",
+      "group": "comparison",
+      "scene": "road_parking",
+      "env_scene": "ugv_parking",
+      "seed": 42,
+      "method": "lacm",
+      "workspace": "F:\\Graduation_Materials\\Model_Source\\paper_reproduction_project\\results\\reproduction_training\\chap03\\comparison\\road_parking\\three_seed_runs\\seed_42\\_workspace\\lacm",
+      "train_episode_log": "F:\\Graduation_Materials\\Model_Source\\paper_reproduction_project\\results\\reproduction_training\\chap03\\comparison\\road_parking\\three_seed_runs\\seed_42\\_workspace\\lacm\\train_episode_log.csv",
+      "summary_json": "F:\\Graduation_Materials\\Model_Source\\paper_reproduction_project\\results\\reproduction_training\\chap03\\comparison\\road_parking\\three_seed_runs\\seed_42\\_workspace\\lacm\\summary.json",
+      "summary_csv": "F:\\Graduation_Materials\\Model_Source\\paper_reproduction_project\\results\\reproduction_training\\chap03\\comparison\\road_parking\\three_seed_runs\\seed_42\\_workspace\\lacm\\summary.csv",
+      "suite_summary_csv": "F:\\Graduation_Materials\\Model_Source\\paper_reproduction_project\\results\\reproduction_training\\chap03\\comparison\\road_parking\\three_seed_runs\\seed_42\\suite_summary.csv",
+      "native_artifacts": {
+        "summary_json": "F:\\Graduation_Materials\\Model_Source\\paper_reproduction_project\\results\\reproduction_training\\chap03\\comparison\\road_parking\\three_seed_runs\\seed_42\\_workspace\\lacm\\_native\\chap03_lacm\\ugv_parking\\lacm_summary.json",
+        "episodes_csv": "F:\\Graduation_Materials\\Model_Source\\paper_reproduction_project\\results\\reproduction_training\\chap03\\comparison\\road_parking\\three_seed_runs\\seed_42\\_workspace\\lacm\\_native\\chap03_lacm\\ugv_parking\\lacm_episodes.csv",
+        "config_json": "F:\\Graduation_Materials\\Model_Source\\paper_reproduction_project\\results\\reproduction_training\\chap03\\comparison\\road_parking\\three_seed_runs\\seed_42\\_workspace\\lacm\\_native\\chap03_lacm\\ugv_parking\\config.json"
+      },
+      "reference": {
+        "suite_dir": "results\\reference_simulation\\chap03\\comparison\\road_parking\\three_seed_runs",
+        "seed_dir": "results\\reference_simulation\\chap03\\comparison\\road_parking\\three_seed_runs\\seed_42",
+        "method_dir": "results\\reference_simulation\\chap03\\comparison\\road_parking\\three_seed_runs\\seed_42\\_workspace\\lacm"
+      }
+    }
+  ]
+}

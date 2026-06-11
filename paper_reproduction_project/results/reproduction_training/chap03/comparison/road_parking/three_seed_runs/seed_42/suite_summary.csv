@@ -1,0 +1,2 @@
+avg_avg_inference_seconds_all,avg_avg_wait_seconds_all,avg_avg_wait_steps_all,avg_compensation_ratio_all,avg_effective_return_all,avg_reward_all,avg_score_all,avg_steps_all,avg_success_all,chapter,env_scene,episodes,group,method,method_key,scenario,scenario_key,seed,summary_window
+1.2657750214722203,0.7,3.5,0.0,11.882,12.200000000000001,12.200000000000001,7.0,1.0,chap03,ugv_parking,1,comparison,LACM,lacm,road_parking,road_parking,42,1

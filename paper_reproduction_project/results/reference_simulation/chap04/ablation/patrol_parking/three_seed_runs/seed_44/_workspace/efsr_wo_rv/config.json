@@ -1,0 +1,46 @@
+{
+  "scenario": "patrol",
+  "method": "efsr_wo_rv",
+  "episodes": 5000,
+  "min_episodes": 5000,
+  "macro_step_scale": 480,
+  "seed": 44,
+  "chapter_key": "chap04",
+  "hidden_dims": [
+    128,
+    64,
+    32
+  ],
+  "learning_rate": 0.0007,
+  "batch_size": 64,
+  "gamma": 0.96,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.06,
+  "epsilon_decay_episodes": 1600,
+  "latency_penalty_enabled": true,
+  "latency_penalty_range": [
+    1.0,
+    2.0
+  ],
+  "latency_penalty_scale": 0.82,
+  "efsr_hyperparameters": {
+    "feedback_min_count": 44,
+    "feedback_safe_frequency_threshold": 0.8,
+    "feedback_high_risk_threshold": 0.5,
+    "risk_discount": 0.95,
+    "risk_threshold": 0.46,
+    "lambda_safe": 0.06,
+    "risk_network_hidden_dims": [
+      256,
+      256
+    ],
+    "risk_learning_rate": 0.0001,
+    "risk_batch_size": 128,
+    "risk_replay_capacity": 100000,
+    "risk_target_sync_every": 1000,
+    "candidate_safe_action_count": 4
+  },
+  "adaptive_stop": false,
+  "plateau_window": 80,
+  "plateau_patience": 4
+}

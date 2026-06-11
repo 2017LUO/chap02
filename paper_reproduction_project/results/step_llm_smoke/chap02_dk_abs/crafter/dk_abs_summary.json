@@ -1,0 +1,10 @@
+{
+  "episodes": 1,
+  "scene": "crafter",
+  "method": "DK_ABS",
+  "avg_reward": 4.7,
+  "avg_steps": 5,
+  "success_rate": 1.0,
+  "avg_executed_behaviors": 5,
+  "avg_planned_behaviors": 1
+}

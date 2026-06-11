@@ -1,0 +1,11 @@
+{
+  "episodes": 1,
+  "scene": "ugv_parking",
+  "method": "DK_ABS",
+  "avg_reward": 12.200000000000001,
+  "avg_steps": 7,
+  "success_rate": 1.0,
+  "avg_executed_behaviors": 7,
+  "avg_llm_requests": 7,
+  "avg_planned_behaviors": 7
+}

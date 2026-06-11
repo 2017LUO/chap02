@@ -1,0 +1,30 @@
+scene: crafter
+method: DK_ABS
+episodes: 1
+seed: 0
+max_episode_steps: 1000
+max_behaviors: 5
+output_dir: results
+
+environment:
+  backend: gym
+  env_id: CrafterReward-v1
+  wood_target_count: 4
+
+planner:
+  mode: llm_simulated
+  fallback_to_rule: true
+  replan_each_step: true
+  wood_target_count: 4
+  stone_target_count: 1
+  max_skill_steps: 350
+  planning_horizon: 80
+  llm:
+    provider: simulated
+    model: gpt-4o-mini-sim
+    temperature: 0.0
+    response_format: json_object
+
+scheduler:
+  delta_trig: 0.65
+  max_plan_length: 80

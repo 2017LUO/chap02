@@ -1,0 +1,15 @@
+{
+  "scene": "highway",
+  "method": "EFSR",
+  "episodes": 1,
+  "seed": 0,
+  "max_episode_steps": 80,
+  "output_dir": "results",
+  "risk": {
+    "threshold": 0.55,
+    "feedback_weight": 0.35
+  },
+  "planner": {
+    "planning_horizon": 80
+  }
+}

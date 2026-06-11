@@ -1,0 +1,7 @@
+scene_name: ugv_patrol
+backend: scripted
+control_mode: code
+unity_connected: false
+unity_state_channel_id: 9b95f441-6f23-4d61-bb23-5df476f26f25
+final_parking_slot: slot_01
+allow_scripted_fallback: true

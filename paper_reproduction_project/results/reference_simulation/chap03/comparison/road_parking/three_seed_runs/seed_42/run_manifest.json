@@ -1,0 +1,18 @@
+{
+  "suite_key": "chap03_road_comparison",
+  "suite_name": "Chapter 3 Road Comparison",
+  "scenario_key": "road",
+  "method_keys": [
+    "dilu_delay",
+    "saycan_delay",
+    "dkabs_wo_comp",
+    "lacm"
+  ],
+  "seed": 42,
+  "episodes": 4000,
+  "clean_intermediates": false,
+  "deliverables": {
+    "skipped": true,
+    "reason": "single-seed training defers paper figures to chap03.code.study_visualization"
+  }
+}

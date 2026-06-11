@@ -1,0 +1,5 @@
+{
+  "risk_weight": 0.6,
+  "time_weight": 0.2,
+  "stall_weight": 0.2
+}

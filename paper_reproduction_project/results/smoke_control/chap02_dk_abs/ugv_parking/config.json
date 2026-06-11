@@ -1,0 +1,25 @@
+{
+  "scene": "crafter",
+  "method": "DK_ABS",
+  "episodes": 1,
+  "seed": 0,
+  "max_episode_steps": 200,
+  "output_dir": "results",
+  "planner": {
+    "mode": "llm_simulated",
+    "fallback_to_rule": true,
+    "replan_each_step": true,
+    "wood_target_count": 4,
+    "stone_target_count": 1,
+    "max_skill_steps": 350,
+    "llm": {
+      "provider": "simulated",
+      "model": "gpt-4o-mini-sim",
+      "temperature": 0.0
+    }
+  },
+  "scheduler": {
+    "delta_trig": 0.65,
+    "max_plan_length": 80
+  }
+}

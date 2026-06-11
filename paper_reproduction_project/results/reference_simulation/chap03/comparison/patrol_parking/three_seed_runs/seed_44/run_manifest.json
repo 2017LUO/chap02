@@ -1,0 +1,18 @@
+{
+  "suite_key": "chap03_patrol_comparison",
+  "suite_name": "Chapter 3 Patrol Comparison",
+  "scenario_key": "patrol",
+  "method_keys": [
+    "dilu_delay",
+    "saycan_delay",
+    "dkabs_wo_comp",
+    "lacm"
+  ],
+  "seed": 44,
+  "episodes": 5000,
+  "clean_intermediates": false,
+  "deliverables": {
+    "skipped": true,
+    "reason": "single-seed training defers paper figures to chap03.code.study_visualization"
+  }
+}

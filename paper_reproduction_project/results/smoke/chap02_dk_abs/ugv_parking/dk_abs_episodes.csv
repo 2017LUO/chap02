@@ -1,0 +1,2 @@
+done_reason,episode,executed_behaviors,llm_requests,method,planned_behaviors,scene,seed,steps,success,total_reward
+success,0,7,7,DK_ABS,7,ugv_parking,0,7,True,12.200000000000001

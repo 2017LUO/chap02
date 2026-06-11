@@ -1,0 +1,21 @@
+{
+  "suite_key": "chap02_road_ablation",
+  "suite_name": "Chapter 2 Road Ablation",
+  "scenario_key": "road",
+  "method_keys": [
+    "dkabs",
+    "dkabs_wo_dk",
+    "dkabs_wo_os"
+  ],
+  "seed": 42,
+  "episodes": 4000,
+  "clean_intermediates": false,
+  "copied_baseline_sources": {
+    "dkabs": "chap02\\single_seed_paper\\data\\comparison\\road_parking\\three_seed_runs\\seed_42\\_workspace\\dkabs"
+  },
+  "artifacts": {
+    "workspace_dir": "chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\seed_42\\_workspace",
+    "suite_summary_csv": "chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\seed_42\\suite_summary.csv",
+    "suite_summary_json": "chap02\\single_seed_paper\\data\\ablation\\road_parking\\three_seed_runs\\seed_42\\suite_summary.json"
+  }
+}

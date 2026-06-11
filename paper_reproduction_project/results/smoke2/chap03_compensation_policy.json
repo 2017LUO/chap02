@@ -1,0 +1,9 @@
+{
+  "risk_threshold": 0.45,
+  "max_hold_steps": 1,
+  "selector_weights": {
+    "risk": 0.55,
+    "progress": 0.35,
+    "bias": 0.1
+  }
+}

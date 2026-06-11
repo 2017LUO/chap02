@@ -1,0 +1,29 @@
+{
+  "suite_key": "chap04_road_comparison",
+  "suite_name": "Chapter 4 Road Comparison",
+  "figures": [
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_score_curve.png",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_score_curve.pdf",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_score_bar.png",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_score_bar.pdf",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_uvr_curve.png",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_uvr_curve.pdf",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_uvr_bar.png",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_uvr_bar.pdf",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_sr_curve.png",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_sr_curve.pdf",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_sr_bar.png",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_sr_bar.pdf",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_scsr_curve.png",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_scsr_curve.pdf",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_scsr_bar.png",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\figures\\chap04_ugv_parking_main_scsr_bar.pdf"
+  ],
+  "tables": [
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\tables\\chap04_ugv_parking_main_statistics.csv",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\tables\\chap04_ugv_parking_main_statistics.md",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\tables\\chap04_ugv_parking_main_statistics.json",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\tables\\chap04_ugv_parking_main_statistics.png",
+    "F:\\Study\\AAA\\chap04\\comparison\\road_parking\\three_seed_runs\\seed_44\\deliverables\\tables\\chap04_ugv_parking_main_statistics.pdf"
+  ]
+}

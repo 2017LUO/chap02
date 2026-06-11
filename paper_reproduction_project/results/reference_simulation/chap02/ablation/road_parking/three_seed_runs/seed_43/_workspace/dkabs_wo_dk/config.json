@@ -1,0 +1,36 @@
+{
+  "scenario": "road",
+  "method": "dkabs_wo_dk",
+  "episodes": 4000,
+  "min_episodes": 3200,
+  "macro_step_scale": 320,
+  "seed": 43,
+  "chapter_key": "chap02",
+  "hidden_dims": [
+    128,
+    64,
+    32
+  ],
+  "learning_rate": 0.00061,
+  "batch_size": 64,
+  "gamma": 0.96,
+  "epsilon_start": 1.0,
+  "epsilon_end": 0.2,
+  "epsilon_decay_episodes": 4000,
+  "train_every_step": 4,
+  "target_sync_every": 224,
+  "min_replay_size": 1280,
+  "latency_penalty_enabled": false,
+  "latency_penalty_range": [
+    1.0,
+    2.0
+  ],
+  "latency_penalty_scale": 1.0,
+  "planner_prior_start": 0.012,
+  "planner_prior_end": 0.02,
+  "planner_prior_stage_bonus": 0.0,
+  "planner_prior_progress_power": 1.75,
+  "adaptive_stop": false,
+  "plateau_window": 80,
+  "plateau_patience": 4
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "scene": "ugv_parking",
+    "skill_id": "main_road_driving",
+    "risk_score": 0.11,
+    "reward": 1.0,
+    "success": false,
+    "violation": false,
+    "state_signature": "obstacle_zone",
+    "metadata": {
+      "phase": "obstacle_zone",
+      "done_reason": null
+    }
+  },
+  {
+    "scene": "ugv_parking",
+    "skill_id": "obstacle_avoidance",
+    "risk_score": 0.18,
+    "reward": 1.2,
+    "success": false,
+    "violation": false,
+    "state_signature": "target_ball",
+    "metadata": {
+      "phase": "target_ball",
+      "done_reason": null
+    }
+  },
+  {
+    "scene": "ugv_parking",
+    "skill_id": "target_ball_clear",
+    "risk_score": 0.18,
+    "reward": 1.2,
+    "success": false,
+    "violation": false,
+    "state_signature": "intersection",
+    "metadata": {
+      "phase": "intersection",
+      "done_reason": null
+    }
+  },
+  {
+    "scene": "ugv_parking",
+    "skill_id": "pass_intersection",
+    "risk_score": 0.18,
+    "reward": 1.4,
+    "success": false,
+    "violation": false,
+    "state_signature": "street",
+    "metadata": {
+      "phase": "street",
+      "done_reason": null
+    }
+  },
+  {
+    "scene": "ugv_parking",
+    "skill_id": "enter_street",
+    "risk_score": 0.14,
+    "reward": 1.4,
+    "success": false,
+    "violation": false,
+    "state_signature": "parking_area",
+    "metadata": {
+      "phase": "parking_area",
+      "done_reason": null
+    }
+  },
+  {
+    "scene": "ugv_parking",
+    "skill_id": "search_parking_slot",
+    "risk_score": 0.1,
+    "reward": 1.0,
+    "success": false,
+    "violation": false,
+    "state_signature": "parking",
+    "metadata": {
+      "phase": "parking",
+      "done_reason": null
+    }
+  },
+  {
+    "scene": "ugv_parking",
+    "skill_id": "parking_control",
+    "risk_score": 0.03,
+    "reward": 5.0,
+    "success": true,
+    "violation": false,
+    "state_signature": "task_complete",
+    "metadata": {
+      "phase": "task_complete",
+      "done_reason": null
+    }
+  }
+]

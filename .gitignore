@@ -1,0 +1,3 @@
+.git-backups/
+__pycache__/
+*.py[cod]

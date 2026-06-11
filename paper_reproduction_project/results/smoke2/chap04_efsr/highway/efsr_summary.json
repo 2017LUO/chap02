@@ -1,0 +1,10 @@
+{
+  "episodes": 1,
+  "scene": "highway",
+  "method": "EFSR",
+  "avg_reward": 56.355677601552856,
+  "avg_steps": 80,
+  "success_rate": 1.0,
+  "avg_correction_ratio": 0.625,
+  "avg_feedback_records": 80
+}

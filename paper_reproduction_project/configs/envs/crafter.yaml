@@ -1,0 +1,15 @@
+# Default Crafter environment config.
+scene_name: crafter
+backend: gym
+env_id: CrafterReward-v1
+goal: make_stone_pickaxe
+max_episode_steps: 10000
+use_achievement_reward: true
+
+# The official skill plan needs 4 wood:
+# 2 for table, 1 for wood pickaxe, 1 for stone pickaxe.
+wood_target_count: 4
+wood_required_for_wood_pickaxe: 2
+stone_required_for_stone_pickaxe: 1
+enable_scripted_hazards: false
+

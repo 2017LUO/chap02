@@ -1,0 +1,17 @@
+{
+  "suite_key": "chap03_road_ablation",
+  "suite_name": "Chapter 3 Road Ablation",
+  "scenario_key": "road",
+  "method_keys": [
+    "lacm_wo_select",
+    "lacm_wo_follow",
+    "lacm"
+  ],
+  "seed": 42,
+  "episodes": 4000,
+  "clean_intermediates": false,
+  "deliverables": {
+    "skipped": true,
+    "reason": "single-seed training defers paper figures to chap03.code.study_visualization"
+  }
+}

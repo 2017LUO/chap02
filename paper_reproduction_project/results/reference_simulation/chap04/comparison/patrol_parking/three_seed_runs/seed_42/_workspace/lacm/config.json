@@ -1,0 +1,7 @@
+{
+  "source": "F:\\Study\\AAA\\chap03\\multi_seed_completion\\data\\comparison\\patrol_parking\\three_seed_runs\\seed_42\\suite_summary.csv",
+  "source_log": "F:\\Study\\AAA\\chap03\\multi_seed_completion\\data\\comparison\\patrol_parking\\three_seed_runs\\seed_42\\_workspace\\lacm\\train_episode_log.csv",
+  "source_seed": 42,
+  "method": "lacm",
+  "copied_as_chap04_reference_baseline": true
+}

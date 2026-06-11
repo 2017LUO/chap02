@@ -1,0 +1,35 @@
+scene: highway
+method: LACM
+episodes: 1
+seed: 0
+max_episode_steps: 80
+output_dir: results
+
+environment:
+  backend: gymnasium
+  env_id: highway-v0
+  render_mode: rgb_array
+  duration: 80
+  vehicles_count: 30
+  lanes_count: 4
+  safe_distance: 25.0
+
+planner:
+  mode: llm_simulated
+  fallback_to_rule: true
+  planning_horizon: 80
+  llm:
+    provider: simulated
+    model: gpt-4o-mini-sim
+    temperature: 0.0
+
+latency:
+  min_seconds: 1.0
+  max_seconds: 1.8
+  control_dt_seconds: 0.2
+  request_interval: 6
+
+compensation:
+  risk_threshold: 0.45
+  max_hold_steps: 1
+  wait_cost_per_second: 0.02

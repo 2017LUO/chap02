@@ -1,0 +1,28 @@
+{
+  "scene": "highway",
+  "method": "LACM",
+  "episodes": 1,
+  "seed": 0,
+  "max_episode_steps": 80,
+  "output_dir": "results",
+  "latency": {
+    "min_steps": 1,
+    "max_steps": 5,
+    "request_interval": 6
+  },
+  "planner": {
+    "planning_horizon": 80
+  },
+  "compensation": {
+    "risk_threshold": 0.55,
+    "max_hold_steps": 2
+  },
+  "environment": {
+    "backend": "gymnasium",
+    "env_id": "highway-v0",
+    "render_mode": "rgb_array",
+    "duration": 80,
+    "vehicles_count": 50,
+    "lanes_count": 4
+  }
+}

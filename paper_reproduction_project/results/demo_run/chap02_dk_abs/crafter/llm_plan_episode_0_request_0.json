@@ -1,0 +1,92 @@
+{
+  "provider": "simulated",
+  "model": "gpt-4o-mini-sim",
+  "messages": [
+    {
+      "role": "system",
+      "content": "你是一个用于具身智能实验复现的高层动作行为规划器。你必须严格使用给定的技能集合、领域知识和运行状态，输出可执行的 JSON 计划。不要输出 Markdown，不要解释额外文本。"
+    },
+    {
+      "role": "user",
+      "content": "请为当前任务生成动作行为序列。要求：\n1. 只使用 available_skills 中存在的 skill_id。\n2. 每个计划项必须包含 skill_id、args、source、expected_phase、max_steps、constraints。\n3. 输出 JSON object，顶层字段为 plan 和 rationale。\n4. plan 必须能被 env.apply_skill(skill_id, args) 顺序执行。\n\n<PLANNING_CONTEXT_JSON>\n{\n  \"scene\": \"crafter\",\n  \"task_state\": {\n    \"scene_name\": \"crafter\",\n    \"goal\": \"make_stone_pickaxe\",\n    \"phase\": \"collect_wood\",\n    \"phase_index\": 0,\n    \"inventory\": {\n      \"health\": 9,\n      \"food\": 9,\n      \"drink\": 9,\n      \"energy\": 9,\n      \"sapling\": 0,\n      \"wood\": 0,\n      \"stone\": 0,\n      \"coal\": 0,\n      \"iron\": 0,\n      \"diamond\": 0,\n      \"wood_pickaxe\": 0,\n      \"stone_pickaxe\": 0,\n      \"iron_pickaxe\": 0,\n      \"wood_sword\": 0,\n      \"stone_sword\": 0,\n      \"iron_sword\": 0\n    },\n    \"achievements\": {\n      \"collect_coal\": false,\n      \"collect_diamond\": false,\n      \"collect_drink\": false,\n      \"collect_iron\": false,\n      \"collect_sapling\": false,\n      \"collect_stone\": false,\n      \"collect_wood\": false,\n      \"defeat_skeleton\": false,\n      \"defeat_zombie\": false,\n      \"eat_cow\": false,\n      \"eat_plant\": false,\n      \"make_iron_pickaxe\": false,\n      \"make_iron_sword\": false,\n      \"make_stone_pickaxe\": false,\n      \"make_stone_sword\": false,\n      \"make_wood_pickaxe\": false,\n      \"make_wood_sword\": false,\n      \"place_furnace\": false,\n      \"place_plant\": false,\n      \"place_stone\": false,\n      \"place_table\": false,\n      \"wake_up\": false\n    },\n    \"stage_complete\": false,\n    \"task_success\": false\n  },\n  \"domain_knowledge\": {\n    \"environment_topology\": {\n      \"regions\": [\n        \"forest\",\n        \"stone_area\",\n        \"safe_area\",\n        \"danger_area\",\n        \"workbench_area\"\n      ],\n      \"objects\": [\n        \"tree\",\n        \"stone\",\n        \"workbench\",\n        \"zombie\"\n      ]\n    },\n    \"region_rules\": {\n      \"forest\": [\n        \"wood_available\"\n      ],\n      \"stone_area\": [\n        \"stone_available\",\n        \"wood_pickaxe_required\"\n      ],\n      \"danger_area\": [\n        \"zombie_risk\"\n      ],\n      \"workbench_area\": [\n        \"tool_crafting_available\"\n      ]\n    },\n    \"craft_rules\": {\n      \"place_table\": [\n        \"wood_required\"\n      ],\n      \"make_wood_pickaxe\": [\n        \"wood_required\",\n        \"workbench_required\"\n      ],\n      \"make_stone_pickaxe\": [\n        \"stone_required\",\n        \"wood_pickaxe_required\",\n        \"workbench_required\"\n      ]\n    },\n    \"skill_policies\": {\n      \"explore\": \"探索附近区域，寻找树木、石头和安全工作位置\",\n      \"collect_wood\": \"采集木材，为制作工具准备资源\",\n      \"place_table\": \"放置工作台，支持后续工具制作\",\n      \"make_wood_pickaxe\": \"制作木镐，用于采集石头\",\n      \"collect_stone\": \"采集石头，为制作石镐准备资源\",\n      \"make_stone_pickaxe\": \"制作石镐，完成任务目标\",\n      \"avoid_zombie\": \"远离危险对象，减少生命值损失\",\n      \"basic_action_sequence\": \"按给定原子动作序列执行\"\n    },\n    \"action_id_to_name\": {\n      \"0\": \"noop\",\n      \"1\": \"move_left\",\n      \"2\": \"move_right\",\n      \"3\": \"move_up\",\n      \"4\": \"move_down\",\n      \"5\": \"do\",\n      \"6\": \"sleep\",\n      \"7\": \"place_stone\",\n      \"8\": \"place_table\",\n      \"9\": \"place_furnace\",\n      \"10\": \"place_plant\",\n      \"11\": \"make_wood_pickaxe\",\n      \"12\": \"make_stone_pickaxe\",\n      \"13\": \"make_iron_pickaxe\",\n      \"14\": \"make_wood_sword\",\n      \"15\": \"make_stone_sword\",\n      \"16\": \"make_iron_sword\"\n    }\n  },\n  \"available_skills\": [\n    \"avoid_zombie\",\n    \"basic_action_sequence\",\n    \"collect_stone\",\n    \"collect_wood\",\n    \"explore\",\n    \"make_stone_pickaxe\",\n    \"make_wood_pickaxe\",\n    \"place_table\"\n  ],\n  \"skill_descriptions\": {\n    \"explore\": \"探索附近区域，寻找树木、石头和安全工作位置\",\n    \"collect_wood\": \"采集木材，为制作工具准备资源\",\n    \"place_table\": \"放置工作台，支持后续工具制作\",\n    \"make_wood_pickaxe\": \"制作木镐，用于采集石头\",\n    \"collect_stone\": \"采集石头，为制作石镐准备资源\",\n    \"make_stone_pickaxe\": \"制作石镐，完成任务目标\",\n    \"avoid_zombie\": \"远离危险对象，减少生命值损失\",\n    \"basic_action_sequence\": \"按给定原子动作序列执行\"\n  },\n  \"planner_config\": {\n    \"mode\": \"llm_simulated\",\n    \"fallback_to_rule\": true,\n    \"replan_each_step\": true,\n    \"wood_target_count\": 4,\n    \"stone_target_count\": 1,\n    \"max_skill_steps\": 350,\n    \"llm\": {\n      \"provider\": \"simulated\",\n      \"model\": \"gpt-4o-mini-sim\",\n      \"temperature\": 0.0,\n      \"response_format\": \"json_object\"\n    },\n    \"planning_horizon\": 80,\n    \"backend\": \"gym\",\n    \"env_id\": \"CrafterReward-v1\"\n  },\n  \"output_schema\": {\n    \"plan\": [\n      {\n        \"skill_id\": \"string\",\n        \"args\": \"object\",\n        \"source\": \"llm or llm_simulated\",\n        \"expected_phase\": \"string or null\",\n        \"max_steps\": \"positive integer\",\n        \"constraints\": [\n          \"string\"\n        ]\n      }\n    ],\n    \"rationale\": \"short string\"\n  }\n}\n</PLANNING_CONTEXT_JSON>"
+    }
+  ],
+  "response_text": "{\n  \"plan\": [\n    {\n      \"skill_id\": \"collect_wood\",\n      \"args\": {\n        \"target_count\": 4\n      },\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"collect_wood\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"collect enough wood before table placement\"\n      ]\n    },\n    {\n      \"skill_id\": \"place_table\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"place_table\",\n      \"max_steps\": 80,\n      \"constraints\": [\n        \"place table on a free adjacent cell\"\n      ]\n    },\n    {\n      \"skill_id\": \"make_wood_pickaxe\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"make_wood_pickaxe\",\n      \"max_steps\": 80,\n      \"constraints\": [\n        \"craft near the placed table\"\n      ]\n    },\n    {\n      \"skill_id\": \"collect_stone\",\n      \"args\": {\n        \"target_count\": 1\n      },\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"collect_stone\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"wood pickaxe is required for stone\"\n      ]\n    },\n    {\n      \"skill_id\": \"make_stone_pickaxe\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"make_stone_pickaxe\",\n      \"max_steps\": 80,\n      \"constraints\": [\n        \"craft near the table after collecting stone\"\n      ]\n    }\n  ],\n  \"rationale\": \"Simulated OpenAI-compatible planner generated a deterministic JSON plan from the real prompt context.\"\n}",
+  "raw_response": {
+    "id": "chatcmpl-sim-9386604",
+    "object": "chat.completion",
+    "created": 1780156446,
+    "model": "gpt-4o-mini-sim",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"plan\": [\n    {\n      \"skill_id\": \"collect_wood\",\n      \"args\": {\n        \"target_count\": 4\n      },\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"collect_wood\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"collect enough wood before table placement\"\n      ]\n    },\n    {\n      \"skill_id\": \"place_table\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"place_table\",\n      \"max_steps\": 80,\n      \"constraints\": [\n        \"place table on a free adjacent cell\"\n      ]\n    },\n    {\n      \"skill_id\": \"make_wood_pickaxe\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"make_wood_pickaxe\",\n      \"max_steps\": 80,\n      \"constraints\": [\n        \"craft near the placed table\"\n      ]\n    },\n    {\n      \"skill_id\": \"collect_stone\",\n      \"args\": {\n        \"target_count\": 1\n      },\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"collect_stone\",\n      \"max_steps\": 350,\n      \"constraints\": [\n        \"wood pickaxe is required for stone\"\n      ]\n    },\n    {\n      \"skill_id\": \"make_stone_pickaxe\",\n      \"args\": {},\n      \"source\": \"llm_simulated\",\n      \"expected_phase\": \"make_stone_pickaxe\",\n      \"max_steps\": 80,\n      \"constraints\": [\n        \"craft near the table after collecting stone\"\n      ]\n    }\n  ],\n  \"rationale\": \"Simulated OpenAI-compatible planner generated a deterministic JSON plan from the real prompt context.\"\n}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1170,
+      "completion_tokens": 356,
+      "total_tokens": 1526
+    }
+  },
+  "plan": [
+    {
+      "skill_id": "collect_wood",
+      "args": {
+        "target_count": 4
+      },
+      "source": "llm_simulated",
+      "expected_phase": "collect_wood",
+      "max_steps": 350,
+      "constraints": [
+        "collect enough wood before table placement"
+      ]
+    },
+    {
+      "skill_id": "place_table",
+      "args": {},
+      "source": "llm_simulated",
+      "expected_phase": "place_table",
+      "max_steps": 80,
+      "constraints": [
+        "place table on a free adjacent cell"
+      ]
+    },
+    {
+      "skill_id": "make_wood_pickaxe",
+      "args": {},
+      "source": "llm_simulated",
+      "expected_phase": "make_wood_pickaxe",
+      "max_steps": 80,
+      "constraints": [
+        "craft near the placed table"
+      ]
+    },
+    {
+      "skill_id": "collect_stone",
+      "args": {
+        "target_count": 1
+      },
+      "source": "llm_simulated",
+      "expected_phase": "collect_stone",
+      "max_steps": 350,
+      "constraints": [
+        "wood pickaxe is required for stone"
+      ]
+    },
+    {
+      "skill_id": "make_stone_pickaxe",
+      "args": {},
+      "source": "llm_simulated",
+      "expected_phase": "make_stone_pickaxe",
+      "max_steps": 80,
+      "constraints": [
+        "craft near the table after collecting stone"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "episodes": 1,
+  "scene": "ugv_patrol",
+  "method": "LACM",
+  "avg_reward": 11.5,
+  "avg_steps": 7,
+  "success_rate": 1.0,
+  "avg_avg_inference_seconds": 1.6409505017861403,
+  "avg_avg_wait_seconds": 0.7,
+  "avg_avg_wait_steps": 3.5,
+  "avg_compensation_ratio": 0.0,
+  "avg_effective_return": 11.2395
+}

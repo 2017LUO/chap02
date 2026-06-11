@@ -1,0 +1,13 @@
+{
+  "episodes": 4000,
+  "scene": "ugv_parking",
+  "method": "LACM",
+  "avg_reward": 12.0949,
+  "avg_steps": 7.5255,
+  "success_rate": 1.0,
+  "avg_avg_inference_seconds": 1.4083212194471189,
+  "avg_avg_wait_seconds": 0.6562083333333333,
+  "avg_avg_wait_steps": 3.2810416666666664,
+  "avg_compensation_ratio": 0.00656875,
+  "avg_effective_return": 11.68467475
+}

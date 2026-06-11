@@ -1,0 +1,19 @@
+{
+  "method": "LACM",
+  "chapter": "chap03",
+  "group": "comparison",
+  "scenario": "road_parking",
+  "env_scene": "ugv_parking",
+  "seed": 42,
+  "episodes": 1,
+  "summary_window": 1,
+  "avg_score_all": 12.200000000000001,
+  "avg_reward_all": 12.200000000000001,
+  "avg_success_all": 1.0,
+  "avg_steps_all": 7.0,
+  "avg_avg_inference_seconds_all": 1.2657750214722203,
+  "avg_avg_wait_seconds_all": 0.7,
+  "avg_avg_wait_steps_all": 3.5,
+  "avg_compensation_ratio_all": 0.0,
+  "avg_effective_return_all": 11.882
+}

@@ -1,0 +1,21 @@
+{
+  "scenario": "patrol",
+  "method": "dkabs_wo_comp",
+  "episodes": 5000,
+  "seed": 43,
+  "chapter_key": "chap03",
+  "source_chapter": "chap02",
+  "source_seed": 43,
+  "source_method": "dkabs",
+  "source_log": "F:\\Study\\AAA\\chap02\\single_seed_paper\\data\\comparison\\patrol_parking\\three_seed_runs\\seed_43\\_workspace\\dkabs\\train_episode_log.csv",
+  "latency_penalty_enabled": true,
+  "latency_event_model": "episode_start_and_stage_switch",
+  "latency_penalty_range": [
+    1.2,
+    1.8
+  ],
+  "latency_penalty_scale": 1.75,
+  "latency_penalty_cap_per_event": null,
+  "max_latency_events_per_episode": 6,
+  "preserved_chap02_task_metrics": true
+}

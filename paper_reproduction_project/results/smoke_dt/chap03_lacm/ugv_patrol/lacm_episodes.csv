@@ -1,0 +1,2 @@
+avg_inference_seconds,avg_wait_seconds,avg_wait_steps,compensation_ratio,done_reason,effective_return,episode,method,scene,seed,steps,success,total_reward
+1.6409505017861403,0.7,3.5,0.0,success,11.2395,0,LACM,ugv_patrol,0,7,True,11.5
